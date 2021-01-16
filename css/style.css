@@ -60,6 +60,7 @@ body {
   position: fixed;
   right: 10px;
   bottom: 10px;
+  z-index: 2;
 }
 
 .sponsor {
@@ -115,7 +116,6 @@ html {
   background-color: rgba(7, 1, 26, 0.678);
   display: flex;
   justify-content: space-around;
-  align-content: center;
   height: 2rem;
 }
 .redesfooter:hover {
