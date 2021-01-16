@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../imagenes/galaxy.png);
+    background-image: url(imagenes/galaxy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -97,21 +97,21 @@ html {
 
 $color-primario: white;
 $color-secundario: rgba(7, 1, 26, 0.678);
-$tamaño-fuente: 2.3em;
-$tamaño-icono-redes-footer: 35px;
+$tamaño-fuente: 2.2rem;
+$tamaño-icono-redes-footer: 2rem;
 $Color-hover:rgb(184, 0, 98);
 $BKColor-hover:rgba(158, 155, 155, 0.815);
 
 .copyright {
     color: $color-primario;
-    font-size: $tamaño-fuente;
+    text-align: justify;
+    margin: 0.8rem;
 }
 .redesfooter {
     color: $color-primario;
     background-color: $color-secundario;
     display: flex;
     justify-content: space-around;
-    font-size: $tamaño-fuente;
     align-content: center;
     height: $tamaño-icono-redes-footer;
     &:hover {
