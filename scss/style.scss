@@ -15,7 +15,7 @@
 /* Variables de Sass*/
 
 $color-primario: white;
-$color-secundario: rgba(7, 1, 26, 0.678);
+$color-secundario: rgb(29, 27, 34);
 $tamaño-fuente: 2.2rem;
 $tamaño-icono-redes-footer: 1.8rem;
 $Color-hover:rgb(184, 0, 98);
@@ -70,7 +70,7 @@ $bgc-section: rgba(11, 2, 17, 0.808);
 .redes {
     display: flex;
     justify-content: space-between;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     height: 1.2rem;
     align-content: center;
     margin: 0.1rem;
@@ -105,8 +105,8 @@ $bgc-section: rgba(11, 2, 17, 0.808);
 footer {
     color: ivory;
     font-size: 12px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
 
 }
 html { 
@@ -142,4 +142,67 @@ html {
         color: $Color-hover;
         background-color: $BKColor-hover;
     }
+}
+
+/*Merch*/
+.banner-merch {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.texto-merch{
+    font-weight: 450;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1rem;
+    text-decoration: none;
+    color: $color-secundario;
+    text-align: center;
+    text-align: justify;
+    padding: 0.8rem;
+}
+
+.copyright-merch {
+    color: $color-secundario;
+    text-align: justify;
+    padding: 0.8rem;
+}
+
+.titulo-merch {
+    font-style: italic;
+    font-weight: 650;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 1.6rem;
+    color: $color-secundario;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 0.3rem;
+    margin: 0.7rem;
+}
+.casilla-merch {
+    /*solo aplicar cuando se pueda expandir el grid 
+    border: $Color-hover;
+    border-style: solid;*/
+    border-width: 1px;
+    height: 30rem;
+    width: 18rem;
+    margin-top: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.7rem;
+}
+
+.img-merch {
+    height: 280px;
+    max-width: 15rem;
+}
+
+.btn {
+    margin: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+
 }
