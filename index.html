@@ -18,40 +18,53 @@
 
     <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
 
+    
+    <!-- Optional JavaScript; choose one of the two! -->
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
     <title>New Wave</title>
 
     <!--Links a Fuentes y bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body-home">
 <header class="header">
 
 <!--Barra de Navegacion-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="imagenes/nwlogonegro.png" alt="logo_de_la_comunidad_de_streamers"> <img src="imagenes/nwlogonegro.png" height="100px"  alt="logo_de_la_comunidad_de_streamers"></a>
+          <a class="navbar-brand" href="index.html" alt="logo_de_la_comunidad_de_streamers"> <img src="imagenes/nwlogonegro.png" height="50px"  alt="logo_de_la_comunidad_de_streamers"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item ">
-                <a class="nav-link active fs-5 sf" aria-current="page" href="#">Home</a>
+              <li class="nav-item">
+                <a class="nav-link active fs-6 sf" aria-current="page" href="#">Inicio</a>
               </li>
-              <li class="nav-item fs-5 sf">
+              <li class="nav-item fs-6 sf">
                 <a class="nav-link" href="#streamers">Conocenos</a>
               </li>
-              <li class="nav-item fs-5 sf">
-                <a class="nav-link" href="#">Merch</a>
+              <li class="nav-item fs-6 sf">
+                <a class="nav-link" href="/merch.html" target="blank">Merch</a>
               </li>
-              <li class="nav-item fs-5 sf">
+              <li class="nav-item fs-6 sf">
                 <a class="nav-link" href="#sponsors">Sponsors</a>
               </li>
-              <li class="nav-item fs-5 sf">
+              <li class="nav-item fs-6 sf">
                 <a class="nav-link" href="#contacto">Contacto</a>
               </li>
               <li class="nav-item">
@@ -64,27 +77,26 @@
 </header>
 <main>
     <h1 class="titulo">QUIEN ESTA ON?</h1>
-    <div><img class="fallguys" src="imagenes/fallguys1.png" alt="imagen_de_personaje_de_ayuda">
-    </div>
 
 <!--Grid de clip que deberian rotar entre una seleccion de varios-->
     <section class="container">      
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-9 bgc text-light">
-            <video class="clip"  src="videos/clip.mp4" controls autoplay></video>
+            <video class="clip"  src="videos/clip.mp4" controls ></video> <!--autoplay si quiero que se reproduzca solo-->
           </div>
           <div class="col-sm-12 col-md-6 col-lg-3 bgc text-light">
-            <p class="fs-6 sf textodemarco">Mi nombre es Damian soy Surfista, Amante de los Videojuegos y la Ciencia Ficcion.
+            <h4 class="sf">Dami_R92</h4>
+            <p class="sf textodemarco">Mi nombre es Damian soy Surfista, Amante de los Videojuegos y la Ciencia Ficcion.
             </p>
-            <p class="fs-6 sf textodemarco">Cuida a tu madre el viejo oso siempre esta al acecho, espero sacarte unas buenas risas.
+            <p class="sf textodemarco">Cuida a tu madre el viejo oso siempre esta al acecho, espero sacarte unas buenas risas.
             </p>
           </div>
           <div class="col bgc text-light">
-            <nav class="redes">
-                    <img class="redes" src="imagenes/ig.png" alt="imagen_logo_instagram"><p>Instagram</p>
-                    <img class="redes" src="imagenes/ytb.png" alt="imagen_logo_youtube"><p>Youtube</p>
-                    <img class="redes" src="imagenes/tw.png" alt="imagen_logo_twitch"><p>Twitch</p>
-                    <img class="redes" src="imagenes/twt.png" alt="imagen_logo_twitter"><p>Twitter</p>
+            <nav class="redes sf">
+                    <img class="redes" src="imagenes/ig.png" alt="imagen_logo_instagram"><p class="fs-6 sf textodemarco"></p>Instagram</p>
+                    <img class="redes" src="imagenes/ytb.png" alt="imagen_logo_youtube"><p class="fs-6 sf textodemarco"></p>Youtube</p>
+                    <img class="redes" src="imagenes/tw.png" alt="imagen_logo_twitch"><p class="fs-6 sf textodemarco"></p>Twitch</p>
+                    <img class="redes" src="imagenes/twt.png" alt="imagen_logo_twitter"><p class="fs-6 sf textodemarco"></p>Twitter</p>
             </nav>
           </div>
         </div>
@@ -103,22 +115,22 @@
       <div class="carousel-item active">
         <img src="imagenes/1.png" class="d-block w-100" alt="imagen_de_la_streamer_estrellita">
         <div class="carousel-caption d-none d-md-block">
-          <h5>ESTRELLITA</h5>
-          <p>Amante de la moda y proveniente de Uruguay de lengua filosa. Es tan buena aconsejando como rompiendo perifericos al enojarse.</p>
+          <h3 class="sf">ESTRELLITA</h3>
+          <p class="fs-5 sf">Amante de la moda y proveniente de Uruguay de lengua filosa. Es tan buena aconsejando como rompiendo perifericos al enojarse.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="imagenes/2.png" class="d-block w-100" alt="imagen_del_streamer_rempaa">
         <div class="carousel-caption d-none d-md-block">
-          <h5>REMPAA</h5>
-          <p>Ni siquiera un tiradero de desechos radiactivos es tan toxico como Rempaa sin embargo no puedes dejar de verlo.</p>
+          <h3 class="sf">REMPAA</h3>
+          <p class="fs-5 sf">Ni siquiera un tiradero de desechos radiactivos es tan toxico como Rempaa sin embargo no puedes dejar de verlo.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="imagenes/3.png" class="d-block w-100" alt="imagen_de_la_streamer_marty">
         <div class="carousel-caption d-none d-md-block">
-          <h5>MARTY</h5>
-          <p>Queres ser maltratado, bastardeado y ninguneado por otra persona, no tenes por que sentirte raro, podes visitar su canal.</p>
+          <h3>MARTY</h3>
+          <p class="fs-5 sf">Queres ser maltratado, bastardeado y ninguneado por otra persona, no tenes por que sentirte raro, podes visitar su canal.</p>
         </div>
       </div>
     </div>
@@ -133,21 +145,6 @@
   </div>
 </section>
 
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-  </script>
-
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
-    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
-  </script>
 
 <section id="sponsors">
     <h2 class="titulo">SPONSORS</h2>
@@ -178,21 +175,30 @@
 <section id="contacto">
     <h2 class="titulo">CONTACTANOS</h2>
     <p class="texto">Contactate con nosotros dejanos tus inquietudes sugerencias o propuestas de valor.</p>
-    <!--Aca iria un formulario-->
-    <img class="formulario" src="imagenes/formulario.png" alt="formulario">
+    <!--Formulario de bootstrap-->
+  <div class="form-control">
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email:*</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Consultas:*</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+    </div>
+    <div class="mb-3"><button type="button" class="btn btn-outline-dark">Enviar</button></div>
+  </div>
 </section>
 
 </main>
 
 <footer>
-    <div class="discord"><img class="discord" src="imagenes/discord.png" alt="simbolo_de_discord"></div>
-    <h5>NewWave © Todos los Derechos reservados</h5>
+  <a href="#contacto"><img class="fallguys" src="imagenes/fallguys1.png" alt="imagen_de_personaje_de_ayuda"></a>
+  <div class="discord"><img class="discord" src="imagenes/discord.png" alt="simbolo_de_discord"></div>
+  <h6 class="texto">NewWave © Todos los Derechos reservados</h6>
     <p class="copyright">Todos los contenidos de este Sitio (Incluyendo, pero no limitado a, texto, logotipos, contenido, fotografías, audio, botones, nombres comerciales y vídeo) están sujetos a derechos de propiedad por las leyes de Derechos de Autor y demás Leyes relativas Internacionales a NewWave y de terceros titulares de los mismos que han autorizado debidamente su inclusión.
       En ningún caso se entenderá que se concede licencia alguna o se efectúa renuncia, transmisión, cesión total o parcial de dichos derechos ni se confiere ningún derecho, y en especial, de alteración, explotación, reproducción, distribución o comunicación publica sobre dichos contenido sin la previa autorización expresa de NewWave o de los titulares correspondientes.
       El uso de imágenes, fragmentos de videos y demás material que sea objeto de protección de los derechos de autor, será exclusivamente para fines educativos e informativos, y cualquier uso distinto como el lucro, reproducción, edición o modificación, será perseguido y sancionado por el respectivo titular de los Derechos de Autor.
-      </p>
-
-
+    </p>
     <div class="redesfooter">
       <img class="redesfooter" src="imagenes/ig.png" alt="imagen_logo_instagram">
       <img class="redesfooter" src="imagenes/ytb.png" alt="imagen_logo_youtube">
