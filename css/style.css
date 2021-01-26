@@ -188,10 +188,10 @@ html {
   border-width: 1px;
   height: 30rem;
   width: 18rem;
-  margin-top: 1.2rem;
   text-align: center;
   border-radius: 5px;
   padding: 0.7rem;
+  margin: 0 auto;
 }
 
 .img-merch {
@@ -203,9 +203,9 @@ html {
   margin: 2%;
 }
 
-.row {
-  display: flex;
-  justify-content: space-around;
-}
+/*.row {
+    display: flex;
+    justify-content: space-around;
+}*/
 
 /*# sourceMappingURL=style.css.map */
