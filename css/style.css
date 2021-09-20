@@ -103,8 +103,8 @@
 footer {
   color: ivory;
   font-size: 12px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 450;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: lighter;
 }
 
 html {
@@ -148,7 +148,6 @@ html {
 /*Merch*/
 .banner-merch {
   width: 100%;
-  margin-bottom: 4rem;
 }
 
 .texto-merch {
@@ -182,30 +181,24 @@ html {
 }
 
 .casilla-merch {
-  /*solo aplicar cuando se pueda expandir el grid 
-  border: $Color-hover;
-  border-style: solid;*/
+  border: #b80062;
+  border-style: solid;
   border-width: 1px;
-  height: 30rem;
-  width: 18rem;
+  height: 20rem;
+  width: 290px;
+  margin: 1rem;
   text-align: center;
   border-radius: 5px;
-  padding: 0.7rem;
-  margin: 0 auto;
 }
 
 .img-merch {
-  height: 280px;
-  max-width: 15rem;
+  height: 15rem;
+  align-items: center;
+  padding-top: 10px;
 }
 
 .btn {
-  margin: 2%;
+  margin-bottom: 0.3rem;
 }
-
-/*.row {
-    display: flex;
-    justify-content: space-around;
-}*/
 
 /*# sourceMappingURL=style.css.map */
